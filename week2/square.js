@@ -1,12 +1,11 @@
 // 별찍기-정사각형
 
-let n = 5;
+let height = 5;
 let star = '';
 
-for (let a = 1; a <= n; a++) {
-//external loop
+for (let i = 1; i <= height; i += 1) {
 
-    for(let b = 1; b <= n; b++) { 
+    for(let j = 1; j <= height; j += 1) { 
         star += '*';
     //adding asterisks
     }
@@ -15,4 +14,3 @@ for (let a = 1; a <= n; a++) {
 }
 
 console.log(star);
-//print 'star'
